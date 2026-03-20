@@ -1,0 +1,8 @@
+generated_assignments/
+akadverse_assignments.db
+token.json
+client_secret.json
+__pycache__/
+*.pyc
+.env
+.vscode/
