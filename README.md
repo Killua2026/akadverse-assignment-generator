@@ -678,10 +678,10 @@ akadverse-assignment-generator/
 This microservice is **Tier 5** in the AkadVerse AI architecture, operating
 within the *My Teaching* module alongside:
 
-- Concept Explainer (Port 8006)
-- External Resources Puller (Port 8007)
-- Notes Creator (Port 8008)
-- Quiz Generator (Port 8009)
+- Concept Explainer 
+- External Resources Puller 
+- Notes Creator
+- Quiz Generator
 
 The `assignment.created` Kafka event published by this service is consumed
 by the Insight Engine and notification services in the full platform.
